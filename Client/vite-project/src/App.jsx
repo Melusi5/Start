@@ -1,6 +1,8 @@
-import './App.css'
-import Card from './Components/Card'
-import Data from'./Data/Data'
+import React from "react"
+import Header from './Components/Header'
+import Home from './Pages/Home'
+import Contact from './Pages/Contact'
+import About from './Pages/About'
 
 function App() {
   
@@ -8,7 +10,10 @@ function App() {
   return (
     
       <div>
-       <Card props={data}/>
+       <Header/>
+       <Home/>
+       <Contact/>
+       <About/>
       </div>
       
      
