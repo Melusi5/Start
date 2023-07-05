@@ -6,14 +6,15 @@ import Contact from './Pages/Contact'
 import About from './Pages/About'
 import Login from './Pages/Login'
 
+
 import {
-    createBrowserRouter,
-    RouterProvider,
-}   from "react-router-dom";
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 const router = createBrowserRouter([
   { 
-    path: "/home",
+    path: "/",
     element: <Home/>,
   },
   {

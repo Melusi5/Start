@@ -1,9 +1,17 @@
 import React from 'react'
+import Header from '../Components/Header'
+import Slide from '../Components/Slide'
+import Card from '../Components/Card'
 
-function Home() {
+ 
+const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+      <Slide/>
+      <Card/>
+    </div>
   )
 }
 
-export default Home
+export default Home;

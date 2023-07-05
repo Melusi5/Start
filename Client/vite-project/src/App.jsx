@@ -5,8 +5,6 @@ import Contact from './Pages/Contact'
 import About from './Pages/About'
 
 function App() {
-  
-
   return (
     
       <div>
@@ -14,10 +12,7 @@ function App() {
        <Home/>
        <Contact/>
        <About/>
-      </div>
-      
-     
-    
+      </div>    
   )
 }
 
