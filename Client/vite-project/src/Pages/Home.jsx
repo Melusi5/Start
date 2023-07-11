@@ -3,6 +3,8 @@ import Header from '../Components/Header'
 import Slide from '../Components/Slide'
 import Card from '../Components/Card'
 
+
+
  
 const Home = () => {
   return (
@@ -10,6 +12,7 @@ const Home = () => {
       <Header/>
       <Slide/>
       <Card/>
+      
     </div>
   )
 }

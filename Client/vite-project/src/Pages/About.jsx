@@ -4,7 +4,12 @@ import Header from '../Components/Header'
 const  About = () => {
   return (
     <div>
-        <Header/>
+      <Header/>
+
+        <p>
+        
+        </p>
+        
     </div>
   )
 }
