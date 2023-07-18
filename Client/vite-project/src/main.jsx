@@ -2,9 +2,10 @@ import React from 'react'
 import ReactDOM  from 'react-dom/client'
 
 import Home from './Pages/Home'
-import Contact from './Pages/Contact'
-import About from './Pages/About'
+import Photo from './Pages/Photo'
+import Video from './Pages/Video'
 import Login from './Pages/Login'
+
 
 
 import {
@@ -18,12 +19,12 @@ const router = createBrowserRouter([
     element: <Home/>,
   },
   {
-    path: "/contact",
-    element: <Contact/>,
+    path: "/photo",
+    element: <Photo/>,
   },
   {
-    path: "/about",
-    element: <About/>,
+    path: "/video",
+    element: <Video/>,
   },
   {
     path: "/login",

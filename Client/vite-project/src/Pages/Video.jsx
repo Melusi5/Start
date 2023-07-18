@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header'
 
-const  About = () => {
+const  Video = () => {
   return (
     <div>
       <Header/>
@@ -14,4 +14,4 @@ const  About = () => {
   )
 }
 
-export default About
+export default Video
