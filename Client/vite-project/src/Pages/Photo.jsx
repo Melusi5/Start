@@ -26,7 +26,7 @@ const Photo = () => {
       <h4>
       With an extensive range of top branded cameras and photographic accessories, one can easily get confused by selecting the right camera kit. Whether you starting off or a seasoned professional, we have the latest models just waiting for you, and offering guidance when it comes to choosing the right camera gear, whether it being super zoom, compact mirrorless cameras, or DSLR cameras.
       </h4>
-
+      
 
     </div>
   )

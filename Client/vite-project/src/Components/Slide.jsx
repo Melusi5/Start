@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import '../CSS/slide.css'
 
 const Slide = () => {
     const [index, setIndex] = useState(0);
@@ -12,9 +13,8 @@ const Slide = () => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://media.istockphoto.com/id/1176911398/photo/young-male-youtuber.jpg?s=612x612&w=0&k=20&c=N0Ny52MZPTC5drcQXimOGJbqCev_2yEOKTyWWgTRFcU="
-          alt="First slide"
+          className="d-block"
+          src="https://media.istockphoto.com/id/1483120808/photo/young-friends-having-their-picture-taken-outdoors.jpg?s=612x612&w=0&k=20&c=jvW5kFzhqznsi1HCw-SiOmNUsq23Fv6uuKFF33RddkU="
         />
         <Carousel.Caption>
           <h3></h3>
@@ -23,8 +23,8 @@ const Slide = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhbWVyYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          className="d-block"
+          src="https://media.istockphoto.com/id/1140936741/photo/top-view-of-work-space-photographer-with-digital-camera-flash-cleaning-kit-memory-card.jpg?s=612x612&w=0&k=20&c=s5KK7cEQoexPpbzh1c7ITkUMosfsw5HPu0bPtrMW2cc="
           alt="Second slide"
         />
 
@@ -35,8 +35,8 @@ const Slide = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://media.istockphoto.com/id/546763388/photo/the-perfect-vantage-point.jpg?s=612x612&w=0&k=20&c=o5XHlEhG_IkXq3i1_zwW4E_0hi5fulOBogSPyIy2uZA="
+          className="d-block"
+          src="https://media.istockphoto.com/id/469327772/photo/photo-of-a-freelancer-sitting-by-computer-working.jpg?s=612x612&w=0&k=20&c=izQi27ALR9Ev21PIroWpYKZ04pkD7hCWw1Ua2VSTS5I="
           alt="Third slide"
         />
 

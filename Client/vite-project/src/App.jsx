@@ -1,9 +1,9 @@
 import React from "react"
 import Header from './Components/Header'
 import Home from './Pages/Home'
-import Contact from './Pages/Contact'
 import Video from './Pages/Video'
 import Card from './Components/Card'
+import Repairs from './Components/Repairs'
 import Login from './Components/Login'
 import Footer from "./Components/Footer"
 
@@ -13,9 +13,9 @@ function App() {
       <div>
        <Header/>
        <Home/>
-       <Contact/>
        <Video/>
        <Card/>
+       <Repairs/>
        <Login/>
        <Footer/>
       </div>    
